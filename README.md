@@ -33,10 +33,10 @@ Detects lowercase letters.
 
 Checks for numeric digits.
 
-
 ### Special Character Detection
 
 Detects symbols such as:
+
 
 @
 #
