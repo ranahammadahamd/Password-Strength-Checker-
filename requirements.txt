@@ -1,0 +1,6 @@
+# SecurePass Analyzer
+
+# No external libraries are required.
+# Uses only Python Standard Library.
+
+Python>=3.10
