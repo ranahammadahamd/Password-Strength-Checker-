@@ -1,8 +1,7 @@
-# 🔐 SecurePass Analyzer
+# SecurePass Analyzer
 
 A professional Password Strength Checker developed as a Cyber Security Internship Project.
 
----
 
 # 📌 Project Overview
 
