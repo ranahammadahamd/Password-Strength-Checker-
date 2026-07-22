@@ -3,45 +3,41 @@
 A professional Password Strength Checker developed as a Cyber Security Internship Project.
 
 
-# 📌 Project Overview
+# Project Overview
 
 SecurePass Analyzer evaluates the security of passwords using multiple security checks instead of simply checking their length.
 
 It analyzes password complexity, estimates entropy, predicts crack time, detects common passwords, and provides recommendations to improve password security.
 
----
 
-# 🚀 Features
+
+# Features
 
 ### Password Length Check
 
 Checks if the password has sufficient length.
 
----
+
 
 ### Uppercase Detection
 
 Detects uppercase letters.
 
----
 
 ### Lowercase Detection
 
 Detects lowercase letters.
 
----
 
 ### Number Detection
 
 Checks for numeric digits.
 
----
 
 ### Special Character Detection
 
 Detects symbols such as:
 
-```
 @
 #
 $
@@ -49,9 +45,6 @@ $
 &
 *
 !
-```
-
----
 
 ### Password Score
 
@@ -59,11 +52,7 @@ Calculates a security score out of **100**.
 
 Example
 
-```
 Score : 87/100
-```
-
----
 
 ### Password Strength
 
@@ -74,7 +63,6 @@ Classifies passwords as
 - Strong
 - Very Strong
 
----
 
 ###  Password Entropy
 
@@ -82,11 +70,8 @@ Calculates entropy in bits.
 
 Example
 
-```
 Entropy : 86.42 bits
-```
 
----
 
 ### Crack Time Estimation
 
@@ -94,7 +79,6 @@ Predicts approximate brute-force cracking time.
 
 Example
 
-```
 Instantly
 Minutes
 Hours
@@ -102,61 +86,48 @@ Days
 Months
 Years
 Centuries
-```
-
----
 
 ### Common Password Detection
 
 Detects passwords such as
 
-```
 password
 123456
 admin
 qwerty
 abc123
-```
 
----
 
 ### Sequential Character Detection
 
 Detects patterns like
 
-```
 abc
 123
 XYZ
-```
 
----
 
 ### Repeated Character Detection
 
 Detects repeated characters
 
-```
 aaaa
 1111
 $$$$
-```
 
----
+
 
 ### Password Complexity
 
 Displays
 
-```
+
 Poor
 Average
 Good
 Very Good
 Excellent
-```
 
----
 
 ### Security Suggestions
 
@@ -164,7 +135,7 @@ Provides recommendations for stronger passwords.
 
 Example
 
-```
+
 Increase password length.
 
 Use uppercase letters.
@@ -172,23 +143,18 @@ Use uppercase letters.
 Include symbols.
 
 Avoid common passwords.
-```
 
----
 
 ### Scan History
 
 Every password analysis is automatically saved into
 
-```
-history.txt
-```
 
----
+history.txt
+
 
 # Project Structure
 
-```
 SecurePassAnalyzer/
 
 │── main.py
@@ -198,11 +164,8 @@ SecurePassAnalyzer/
 │── history.txt
 │── README.md
 │── requirements.txt
-```
 
----
-
-# 🛠 Technologies Used
+# Technologies Used
 
 - Python 3
 - File Handling
@@ -211,7 +174,7 @@ SecurePassAnalyzer/
 - Math Library
 - Datetime Module
 
----
+
 
 # ▶ How to Run
 
@@ -221,15 +184,12 @@ Clone or download the project.
 
 Run
 
-```bash
+bash
 python main.py
-```
 
----
 
-# 📸 Sample Output
+# Sample Output
 
-```
 ======================================================
         PASSWORD SECURITY REPORT
 ======================================================
@@ -253,11 +213,9 @@ Complexity            : Excellent
 Security Suggestions
 
 ✔ Excellent! Your password follows good security practices.
-```
 
----
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - GUI Version using Tkinter
 - Dark Theme
@@ -270,9 +228,9 @@ Security Suggestions
 - QR Code Login
 - Multi-language Support
 
----
 
-# 🎯 Learning Outcomes
+
+#  Learning Outcomes
 
 This project demonstrates
 
@@ -285,7 +243,7 @@ This project demonstrates
 - File Handling
 - Risk Analysis
 
----
+
 
 # 👨‍💻 Author
 
@@ -293,7 +251,5 @@ This project demonstrates
 Cyber Security Intern
 2026
 
----
-
-# 📄 License
+# License
 This project was created for educational and internship purposes only.
